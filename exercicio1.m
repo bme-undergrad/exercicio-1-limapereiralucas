@@ -18,7 +18,6 @@ t = zeros(imax, 1);
         t(ii+1) = t(ii) - func(t(ii))/func_d(t(ii));
     endfor
     
-    t = t(ii);  % retorna a última estimativa válida
-%%%%%%%%%%%%%%%%%%%%%%%%%%
-
+    t = t(ii);  
+    
 endfunction
